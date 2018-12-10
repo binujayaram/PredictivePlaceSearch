@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_layout_height">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/next_button"
+        android:background="@drawable/button_selector"
+        android:text="@string/text_next"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@color/nav_text_color"/>
+</RelativeLayout>

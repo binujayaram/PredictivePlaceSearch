@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#84c5f1</color>
+    <color name="colorPrimaryDark">#56b0ec</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="porgressBarColor">#84c5f1</color>
+    <color name="white">#ffffff</color>
+    <color name="button_border_color">#acacac</color>
+    <color name="title_text_color">#1f1f1f</color>
+    <color name="body_text_color">#7a7a7a</color>
+    <color name="progress_background_color">#858585</color>
+    <color name="done_icon_color">#00cc65</color>
+    <color name="nav_text_color">#ca0202</color>
+</resources>

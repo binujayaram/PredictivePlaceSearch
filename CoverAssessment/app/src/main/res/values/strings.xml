@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CoverAssessment</string>
+    <string name="search_view_title">What\'s your address?</string>
+    <string name="text_next">Next</string>
+    <string name="finish_next">Finish</string>
+    <string name="location_text">Location:</string>
+    <string name="carrier_text">Carrier:</string>
+    <string name="progress_text">Please wait...</string>
+
+
+    <string name="no_selection_dialog_title">No Option Selected</string>
+    <string name="no_selection_dialog_message">Select one of the options to continue.</string>
+    <string name="no_selection_dialog_button_text">Ok</string>
+
+    <string name="selection_saved_toast_message">Selection saved...</string>
+</resources>

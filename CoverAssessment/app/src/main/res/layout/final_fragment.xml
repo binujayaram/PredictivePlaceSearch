@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_medium">
+
+
+    <ImageView
+        android:id="@+id/done_iv"
+        android:layout_width="@dimen/done_button_size"
+        android:layout_height="@dimen/done_button_size"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_large"
+        app:srcCompat="@drawable/ic_baseline_check_circle_24px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/done_iv"
+        android:layout_marginTop="@dimen/margin_large">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/location_text"
+                android:layout_weight="1"
+                android:textColor="@color/body_text_color"
+                android:textSize="@dimen/text_size_medium"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:text="Delhi"
+                android:textColor="@color/title_text_color"
+                android:textSize="@dimen/text_size_medium"
+                android:id="@+id/selected_place_tv"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/margin_medium">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/carrier_text"
+                android:textColor="@color/body_text_color"
+                android:textSize="@dimen/text_size_medium"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:text="Geico"
+                android:textColor="@color/title_text_color"
+                android:textSize="@dimen/text_size_medium"
+                android:id="@+id/selected_carrier_tv"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

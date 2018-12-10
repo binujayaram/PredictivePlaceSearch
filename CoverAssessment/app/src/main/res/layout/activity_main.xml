@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.MainActivity">
+  <fragment
+      android:name="com.binujayaram.coverassessment.view.fragment.ProgressFragment"
+      android:id="@+id/progress_fragment"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/progress_list_height"
+      />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/progress_list_height"
+        android:layout_marginBottom="@dimen/nav_layout_height">
+
+
+
+    </RelativeLayout>
+    <fragment
+        android:name="com.binujayaram.coverassessment.view.fragment.NavigationButtonFragment"
+        android:layout_width="match_parent"
+        android:id="@+id/nav_fragment"
+        android:layout_height="@dimen/nav_layout_height"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

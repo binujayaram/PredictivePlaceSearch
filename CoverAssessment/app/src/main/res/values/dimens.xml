@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="address_list_height">60dp</dimen>
+    <dimen name="nav_layout_height">60dp</dimen>
+    <dimen name="progress_list_height">40dp</dimen>
+    <dimen name="progress_bar_height">15dp</dimen>
+
+
+    <dimen name="margin_small">6dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+
+    <dimen name="done_button_size">150dp</dimen>
+
+    <dimen name="carrier_list_height">40dp</dimen>
+    <dimen name="splash_icon_width">150dp</dimen>
+    <dimen name="splash_icon_height">150dp</dimen>
+</resources>

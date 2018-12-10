@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/address_list_height"
+    android:padding="8dp"
+    android:gravity="center_vertical"
+    android:id="@+id/item_container">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="text1"
+
+        android:textSize="@dimen/text_size_medium"
+        android:textColor="@color/title_text_color"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/text1"
+        android:singleLine="true"
+        android:textSize="@dimen/text_size_small"
+        android:textColor="@color/body_text_color"/>
+
+    <!--   android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="@dimen/text_size_small"
+        android:autoSizeMaxTextSize="@dimen/text_size_large"
+        android:autoSizeStepGranularity="2sp"-->
+</RelativeLayout>
